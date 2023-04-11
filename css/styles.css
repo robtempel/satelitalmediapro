@@ -1,0 +1,194 @@
+ @font-face {
+  font-family: "myriad";
+  src: url('../assets/fonts/myriadpro-bold.otf');
+}
+
+@font-face {
+  font-family: "avenirheavy";
+  src: url('../assets/fonts/Avenir_Heavy.ttf');
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.542); 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(145, 145, 145); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(191, 191, 191); 
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.logoespn{
+  z-index: 1;
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: 20px;
+  width: 85px;
+}
+
+.logomediapro{
+  z-index: 1;
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 20px;
+  width: 130px;
+}
+
+
+body{
+  font-family: 'myriad';
+  overflow-y: hidden;
+  overflow-x: hidden;
+  min-height: 500px;
+  margin: 0;
+  background-color: rgb(88, 88, 88);
+}
+
+.titulo{
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  color: rgb(218, 218, 218);
+  width: 100%;
+  min-width: 900px;
+  margin: 0;
+  top: 0px;
+  height: 45px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.central{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 50%;
+  min-width: 50%;
+  padding-bottom: 4px;
+  box-shadow: inset -1px -1px 0px 0px rgba(0, 0, 0, 0.508), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.282);
+}
+.formulario{
+  position: relative;
+  margin-top: 45px;
+  padding: 3px;
+  padding-bottom: 3px;
+}
+
+.cajatexto{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  height: 300px;
+  margin-bottom: 2px;
+  background-color: rgb(172, 172, 172);
+}
+
+.contdivbot{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divbotoncitos{
+  display: block;
+  position: relative;
+  width: 100%;
+  min-width: 600px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paraclick1{
+  position: relative;
+  top: 3px;
+  left: 5px;
+  height: 25px;
+  background-color: rgb(224, 224, 224);
+  border-width: 0;
+  border-radius: 13px 0px 0px 13px;
+  box-shadow: inset 0px -10px 5px 0px rgba(5, 5, 5, 0.309), 1px 1px 1px 1px rgba(5, 5, 5, 0.446);
+}
+
+.paraclick2{
+  position: relative;
+  top: 3px;
+  left: 3px;
+  height: 25px;
+  background-color: rgb(251 239 103);
+  border-width: 0;
+  border-radius: 0px 13px 13px 0px;
+  box-shadow: inset 0px -10px 5px 0px rgba(5, 5, 5, 0.309), 1px 1px 1px 1px rgba(5, 5, 5, 0.446);
+}
+
+.windowResultado{
+  font-family: "Tahoma";
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-width: 600px;
+  
+}
+
+
+.salida1{
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 6px;
+  box-shadow: inset 1px 1px 3px 0px rgb(17, 17, 17);
+}
+
+.salida2{
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  display: block;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+  box-shadow: inset 1px 1px 3px 0px rgb(17, 17, 17);
+}
+
+.rojo{
+  color: rgb(105, 0, 0);
+}
+
+.verde{
+  color: green;
+}
