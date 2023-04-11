@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ProcSat</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    
+    <h1 class="titulo">Sala 9 PromTV - Telecomunicaciones satelitales</h1>
+    <img src="assets/images/ESPN-iso-logo.svg" id="logoespn" class="logoespn" alt="">
+    <img src="assets/images/Mediapro.svg" id="logomediapro" class="logomediapro" alt="">
+    <div class="central">
+      <div class="formulario">
+        <textarea id="txt1" class="cajatexto" placeholder='Introducir parámetros aqui y luego presionar la tecla "Resumir parámetros"'></textarea>
+        <div class="contdivbot">
+          <div class="divbotoncitos">
+            <input type="button" value="Limpiar caja de texto" class="paraclick1" id="bt2">
+            <input type="button" value="Resumir parámetros" class="paraclick2" id="bt1">
+          </div>
+        </div>
+      </div>
+      
+      <div class="windowResultado">
+        <article id="resultado" class="salida1">
+          <h6 hidden>Parámetros detallados</h6>
+          <span id="print_satpc">Parámetros Limpios</span>
+          <span id="print_polcir"></span>
+          <span id="print_frec"></span>
+          <span id="print_sr"></span>
+          <span id="print_mod"></span>
+          <span id="print_srv"></span>
+          <span id="print_ca"></span>
+          <span class="rojo" id="print_std5960"></span>
+          <span class="verde" id="print_std50"></span>
+        </article>
+        
+        <article id="resultador" class="salida2">
+          <h6 hidden>Parámetros elementales</h6>
+          <span id="print_satpcr">Parámetros elementales</span>
+          <span id="print_polcirr"></span>
+          <span id="print_frecr"></span>
+          <span id="print_srr"></span>
+          <span id="print_modr"></span>
+          <span id="print_srvr"></span>
+          <span id="print_car"></span>
+        </article>
+      </div>
+    </div>
+    
+
+    <script src="procesadorlogico.js"></script>
+    
+  </body>
+
+</html>
